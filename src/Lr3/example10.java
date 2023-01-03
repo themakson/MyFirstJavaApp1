@@ -7,9 +7,9 @@ public class example10
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Введите длину массива:");
-        int numb = sc.nextInt();
+        int numb = scanner.nextInt();
 
         Integer[] arr = new Integer[numb];;
         Random random = new Random();
