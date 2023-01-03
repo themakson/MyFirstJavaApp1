@@ -5,12 +5,12 @@ public class example6 {
 
         String firstText = "Размер Массива: ";
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println(firstText);
 
-        if(scanner.hasNextInt()) {
+        if(sc.hasNextInt()) {
 
-            int n = Integer.parseInt(scanner.next());
+            int n = Integer.parseInt(sc.next());
             if (n <= 0){
                 System.out.println("Этого значения не достаточно");
                 System.exit(0);
